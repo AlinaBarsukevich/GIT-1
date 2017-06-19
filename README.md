@@ -1,2 +1,2 @@
 # GIT-1
-# This repository was created for my homework at AT Summer courses.
+# This repository was created for my homeworks at AT Summer courses.
