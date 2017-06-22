@@ -1,4 +1,3 @@
-
 public class Dev1 {
   public static void main (String[] args) {
     for (int i=0;i<=100; i++) {
@@ -10,8 +9,6 @@ public class Dev1 {
         System.out.println("tutti");
       } else {
         System.out.println(i);
-
-
       }
     }
   }
