@@ -6,9 +6,8 @@ public class Sequence {
     Scanner in = new Scanner(System.in);
     String seq = in.nextLine();
     String seqParts[] = seq.split(" ");
-    int length = seqParts.length;
     try {
-      for (int i = 0; i < length - 1; i++) {
+      for (int i = 0; i < seqParts.length - 1; i++) {
         if (Integer.parseInt(seqParts[i + 1]) > Integer.parseInt(seqParts[i])) {
           System.out.println("The numbers aren't decreasing");
           return;
